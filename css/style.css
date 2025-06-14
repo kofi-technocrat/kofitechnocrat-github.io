@@ -1,108 +1,217 @@
-    @font-face {
-        font-family: 'Satisfy';
-        src: url(Satisfy-Regular.ttf) format('truetype');
-    }
-    
-    @font-face {
-        font-family: 'Quicksand';
-        src: url(Quicksand-Regular.ttf) format('truetype');
-    }
-    
-    body {
-        font-family: Quicksand;
-        height: 100%;
-        margin: 0;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    
-    .background {
-        transition: 0.5s;
-        min-height: 100vh;
-        width: 100%;
-        position: fixed;
-    }
-    
-    .navbar {
-        background-color: white;
-    }
-    
-    .navbar-nav {
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-        margin: 0;
-    }
-    
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-    
-    .nav-item {
-        padding: 0 20px 0 20px;
-    }
-    
-    .nav-link {
-        font-family: Quicksand;
-        text-decoration: none;
-        color: rgb(53, 0, 103);
-        transition: 0.5s;
-        text-align: left;
-        width: fit-content;
-        padding: 10px 20px 10px 20px !important;
-        margin: 5px;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-    }
-    
-    .nav-link:hover {
-        background-color: rgb(53, 0, 103);
-        transition: 0.5s;
-        font-weight: 500;
-        color: white;
-    }
-    
-    a:active {
-        text-decoration-line: overline;
-        text-decoration-color: white;
-        text-decoration-thickness: 2px;
-        text-decoration-skip-ink: auto;
-    }
-    
-    #home {
-        background-color: rgb(63, 2, 120);
-        width: auto;
-        height: 50vh;
-        border-bottom-left-radius: 100px;
-        border-top-right-radius: 100px;
-        text-align: center;
-        justify-content: center;
-        overflow: auto;
-        padding: 0 40px 0 30px;
-    }
-    
-    .welcome {
-        font-family: Satisfy;
-        padding-top: 80px;
-        font-size: 100px;
-        color: white;
-    }
-    
-    .intro {
-        color: white;
-        font-size: 20px;
-    }
-    
-    @media screen and (max-width:768px) {
-        .navbar-toggler {
-            margin-bottom: 10px;
+        @font-face {
+            font-family: 'Satisfy';
+            src: url(Satisfy-Regular.ttf) format('truetype');
         }
+        
+        @font-face {
+            font-family: 'Quicksand';
+            src: url(Quicksand-Regular.ttf) format('truetype');
+        }
+        
+        body {
+            font-family: Quicksand;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            background-color: aliceblue;
+        }
+        
         .navbar {
-            background-color: transparent;
-            text-align: left;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 1000;
         }
+        
+        .navbar-nav {
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            position: relative;
+        }
+        
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        
         .nav-item {
-            padding: 0 0 0 0;
-            text-align: left;
+            padding: 0 20px 0 20px;
         }
-    }
+        
+        .nav-link {
+            font-family: Quicksand;
+            text-decoration: none;
+            color: rgb(53, 0, 103);
+            transition: 0.5s;
+            text-align: left;
+            width: fit-content;
+            padding: 10px 20px 10px 20px !important;
+            margin: 5px;
+            font-weight: 600;
+            border-bottom-left-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+        
+        .nav-link:hover {
+            background-color: rgb(53, 0, 103);
+            transition: 0.5s;
+            font-weight: 500;
+            color: white;
+        }
+        
+        a:active {
+            text-decoration-line: overline;
+            text-decoration-color: white;
+            text-decoration-thickness: 2px;
+            text-decoration-skip-ink: auto;
+        }
+        
+        #home {
+            text-align: center;
+            justify-content: center;
+            padding: 80px 40px 30px 0;
+            height: 100vh;
+            background: linear-gradient(to top, rgb(88, 0, 108), rgb(53, 0, 103));
+            overflow: hidden;
+        }
+        
+        .welcome {
+            font-family: Satisfy;
+            padding-top: 50px;
+            font-size: 70px;
+            color: white;
+        }
+        
+        .intro {
+            color: aqua;
+            font-size: 20px;
+            bottom: 0;
+        }
+        
+        .message {
+            text-align: justify;
+            text-align-last: center;
+            color: white;
+            padding: 5px 20% 5px 20%;
+        }
+        
+        .bgwhite {
+            margin: 0 10% 0 10%;
+            font-size: 10px;
+            display: flex;
+            width: 80%;
+            padding-top: 50px;
+            justify-content: center;
+        }
+        
+        .column {
+            background-color: white;
+            margin: 5px;
+            width: 20em;
+            height: 20em;
+            border-radius: 50%;
+            box-shadow: 0 0 1em rgb(56, 0, 103);
+            transition: 1s ease;
+            transform: scale(1.2);
+        }
+        
+        .move {
+            position: absolute;
+            border-style: solid;
+            border-color: rgb(77, 0, 141) yellow rgb(0, 239, 0) red;
+            border-width: 0.3em 0.5em 0.3em 0.5em;
+            border-radius: 50%;
+            top: 0em;
+            width: 20em;
+            height: 20em;
+            animation: orbit 5s linear infinite;
+        }
+        
+        .column:hover {
+            transition: 2s ease;
+            margin: 0 15em 0 15em;
+        }
+        
+        .homelogo {
+            width: 12em;
+            height: 12em;
+            padding: 15px, 15px 0 15px;
+            border-radius: 50%;
+        }
+        
+        .tools {
+            margin: 5px 15px 5px 15px;
+            font-size: 20px;
+            font-weight: 600;
+            color: blueviolet;
+        }
+        
+        @keyframes orbit {
+            to {
+                transform: rotate(360deg);
+                filter: hue-rotate(360deg);
+            }
+        }
+        
+        #graphic {
+            width: 100%;
+            height: 100vh;
+            background-image: url(/images/gbackground.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        @media screen and (max-width:600px) {
+            .navbar {
+                width: auto;
+                text-align: left;
+                background-color: transparent;
+            }
+            .nav-item {
+                background-color: white;
+                border-bottom-right-radius: 6cqmax;
+                padding: 0 0 0 0;
+                text-align: left;
+            }
+            .navbar-toggler {
+                margin-bottom: 10px;
+                background-color: white;
+            }
+            #home {
+                width: 100%;
+                padding-left: 50px;
+                padding-right: 50px;
+                height: auto;
+            }
+            body {
+                background-color: transparent;
+            }
+            .message {
+                padding-left: 2%;
+                padding-right: 2%;
+            }
+            .bgwhite {
+                display: block;
+                justify-content: center;
+                font-size: 10px;
+                width: 100%;
+            }
+            .column {
+                font-size: 8px;
+                padding: 10px 20px 10px 20px;
+            }
+            .column:hover {
+                transition: 2s ease;
+                margin: 5em 0 5em 0;
+            }
+            .move {
+                left: 0em;
+            }
+            .tools {
+                font-size: 12px;
+            }
+            #graphic {
+                background-image: url(/images/gmobile.jpg);
+            }
+        }
