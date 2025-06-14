@@ -157,7 +157,7 @@
         #graphic {
             width: 100%;
             height: 100vh;
-            background-image: url(/images/gbackground.jpg);
+            background-image: url(images/gbackground.jpg);
             background-repeat: no-repeat;
             background-size: cover;
         }
@@ -212,6 +212,6 @@
                 font-size: 12px;
             }
             #graphic {
-                background-image: url(/images/gmobile.jpg);
+                background-image: url(images/gmobile.jpg);
             }
         }
