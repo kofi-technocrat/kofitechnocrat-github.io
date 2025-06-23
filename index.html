@@ -2,92 +2,190 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <div class="background">
-    </div>
-    <nav>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#graphic">Graphic Design</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#front">Front-End</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-
-                    </ul>
+    <section id="home">
+        <div class="background">
+            <div class="home">
+                <div class="navi">
+                    <nav class="navbar">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+                  <span class="toggle bi bi-list"></span>
+                </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#home"><span class="bi bi-house"></span
+                      ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link bi bi-easel2" href="#graphic"><span></span
+                      ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#front"><span class="bi bi-laptop"></span
+                      ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#about"><span class="bi bi-file-earmark-person"></span
+                      ></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#contact"><span class="bi bi-person-lines-fill"></span
+                      ></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
+
+                <div class="photo">
+                    <img class="dp" src="./images/IMG_0492.jpeg" alt="profile-pic" />
+                </div>
+                <div class="description">
+                    <p class="name">Kofi Agbenyegah Ahiataku</p>
+                    <p class="intro">Graphic Designer & Front-End Developer</p>
+
+                    <p class="mess">
+                        Adobe Photoshop | Corel Draw | HTML | CSS | JavaScript
+                    </p>
+                </div>
+
+                <div class="detail">
+                    <a class="info bi bi-telephone" href="tel:+971522726166">
+              Call me</a
+            >
+            <a class="info bi bi-whatsapp" href="https://wa.me/+971522726166">
+              Whatsapp
+            </a>
+                    <a class="info bi bi-envelope" href="mailto:kofitechnocrat@gmail.com">
+              Send an Email</a
+            >
+            <a href="./files/Kofi CV.pdf" download class="info bi bi-download">
+              Download My Resume
+            </a>
+                </div>
+                <div class="moves">
+                    <div class="oscilate">
+                        <div class="oscilate2"></div>
+                    </div>
+                </div>
+                <div class="about-container">
+                    <h1>ABOUT ME</h1>
+
+                    <div class="about">
+                        <p>
+                            I’m a multidisciplinary designer and front-end developer passionate about blending creativity with code to craft visually engaging and user-focused digital experiences. With a foundation in Adobe Photoshop and CorelDRAW, I specialize in high-end imagery,
+                            vector graphics, and signage design. My front-end skills extend to responsive UI development, interactive elements, and intuitive layouts that bring ideas to life on screen.
+                        </p>
+                    </div>
+                    <div class="personal-details">
+                        <h3>Personal Details</h3>
+                        <p><span class="bi bi-geo-alt"></span>Abu Dhabi</p>
+                        <p><span class="bi bi-flag-fill"></span>Ghanaian</p>
+                        <p><span class="bi bi-translate"></span>English Language</p>
+                        <p>
+                            <span class="bi bi-mortarboard-fill"></span>Computer Science
+                        </p>
+                    </div>
+                    <div class="about-more">
+                        <a href="#" id="arrow" class="bi bi-caret-right-fill" onclick="toggle(event)">
+                view more</a
+              >
+              <p id="more" style="display: none">
+                Alongside my creative work, I bring over 8 years of hands-on
+                experience as an IT professional. I’ve managed complex systems,
+                optimized performance across Windows and Linux environments, and
+                provided seamless tech support. From troubleshooting hardware
+                and software to securing networks and deploying cloud-based
+                solutions, I bridge the gap between design vision and technical
+                execution. Whether it’s pixels, performance, or problem-solving,
+                I thrive at the intersection of art and infrastructure.
+              </p>
             </div>
-        </nav>
-
-        <div id="home">
-
-            <h1 class="welcome">Welcome</h1>
-            <img class="dp" src="./images/IMG_0492.jpeg" alt="profile-pic">
-            <p class="intro">Kofi Agbenyegah Ahiataku,</p>
-
-            <span style="font-size: 16px; color: white;">A graphic designer and front-end developer</p>
-                 
-                <div class="square">
-                <p class="message">As a graphic designer and front-end developer, I craft visually striking designs and seamless digital experiences. With expertise in Adobe Photoshop for high-end imagery and CorelDRAW for vector graphics and signage, alongside a strong
-                    foundation in front-end development, I blend creativity with technical precision. Explore my work and see how I bring ideas to life through design and code.</p>
-         <div class="moves"></div>
-                </div>
+          </div>
         </div>
-        <div id="graphic">
-            <div class="bgwhite">
-                <div class="column">
-                    <img class="homelogo" src="./images/graphic.png" alt="graphic_logo">
-                    <p class="tools">Logos</p>
-                    <div class="move"></div>
-                </div>
-
-                <div class="column">
-                    <img class="homelogo" src="./images/web.jpg" alt="graphic_logo">
-                    <p class="tools">Flyers</p>
-                    <div class="move"></div>
-                </div>
-                <div class="column">
-                    <img class="homelogo" src="./images/graphic.png" alt="graphic_logo">
-                    <p class="tools">Letterheads</p>
-                    <div class="move"></div>
-                </div>
-
-                <div class="column">
-                    <img class="homelogo" src="./images/web.jpg" alt="graphic_logo">
-                    <p class="tools">Branding</p>
-                    <div class="move"></div>
-                </div>
-                <div class="column">
-                    <img class="homelogo" src="./images/graphic.png" alt="graphic_logo">
-                    <p class="tools">Brochure</p>
-                    <div class="move"></div>
-                </div>
-
-
-            </div>
+      </div>
+    </section>
+    <section id="graphic">
+      <div class="bgwhite">
+        <h1 class="ghead">UNDER MAINTENANCE</h1>
+        <!-- <div class="column">
+          <img class="homelogo" src="./images/graphic.png" alt="graphic_logo" />
+          <p class="tools">Logos</p>
+          <div class="move"></div>
         </div>
-</body>
 
+        <div class="column">
+          <img class="homelogo" src="./images/web.jpg" alt="graphic_logo" />
+          <p class="tools">Flyers</p>
+          <div class="move"></div>
+        </div>
+        <div class="column">
+          <img class="homelogo" src="./images/graphic.png" alt="graphic_logo" />
+          <p class="tools">Letterheads</p>
+          <div class="move"></div>
+        </div>
+
+        <div class="column">
+          <img class="homelogo" src="./images/web.jpg" alt="graphic_logo" />
+          <p class="tools">Branding</p>
+          <div class="move"></div>
+        </div>
+        <div class="column">
+          <img class="homelogo" src="./images/graphic.png" alt="graphic_logo" />
+          <p class="tools">Brochure</p>
+          <div class="move"></div>
+        </div>
+      </div>
+    </section> -->
+  </body>
 </html>
+<script>
+  function toggle() {
+    event.preventDefault();
+    const para = document.getElementById("more");
+    const arr = document.getElementById("arrow");
+    if (
+      para.style.display === "none" ||
+      arr.className === "bi bi-caret-right-fill"
+    ) {
+      para.style.display = "block";
+      arr.className = "bi bi-caret-down-fill";
+    } else {
+      para.style.display = "none";
+      arr.className = "bi bi-caret-right-fill";
+    }
+  }
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.offsetHeight;
+      if (pageYOffset >= sectionTop - sectionHeight / 3) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
