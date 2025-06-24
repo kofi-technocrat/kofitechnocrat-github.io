@@ -1,0 +1,201 @@
+@media screen and (max-width: 600px) {
+  .navbar {
+    left: 0;
+  }
+  .background {
+    width: 100%;
+    height: auto;
+  }
+  #home {
+    height: auto;
+  }
+  .home {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  .home:hover {
+    .moves {
+      transition: 5s ease;
+      transform: translate(15em, 15em) scale(0.5);
+    }
+  }
+  .photo,
+  .description,
+  .detail {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+  }
+  .dp {
+    width: 60vw;
+    margin: 0;
+  }
+  .name {
+    font-size: 27px;
+    color: #ff1d58;
+  }
+  .intro {
+    font-size: 17px;
+    margin-top: -1em;
+  }
+  .mess {
+    font-size: 15px;
+    padding: 0 80px 0 80px;
+  }
+  .info {
+    display: block;
+    text-align: left;
+    margin: 15px 10px 15px 10px;
+  }
+  .detail {
+    height: auto;
+  }
+  .about-container {
+    position: relative;
+    display: block;
+    width: 100vw;
+    padding: 30px;
+  }
+  .about,
+  .personal-details {
+    width: 100%;
+    padding: 10px;
+    text-align: justify;
+    font-size: 13px;
+  }
+  .personal-details span {
+    margin-top: -9px;
+  }
+  .personal-details p {
+    display: flex;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+  }
+  .about-more {
+    width: 100%;
+    padding: 10px;
+    display: block;
+  }
+  .about-more a {
+    position: relative;
+    left: 50px;
+  }
+  .about-more p {
+    font-size: 13px;
+  }
+  /* /*     END OF HOME * */
+  .exp {
+    background-color: rgb(223, 237, 237);
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin: 0;
+    padding: 3em 1em;
+    flex-wrap: wrap;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .exp h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .line {
+    position: absolute;
+    width: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .vertical {
+    position: absolute;
+    height: auto;
+    border: none;
+  }
+  .line .bi {
+    display: none;
+  }
+  .box {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: 1em 0;
+  }
+  .duration {
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 3em 2em;
+    font-size: 18px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 0;
+  }
+  .duration .bi {
+    display: none;
+  }
+  .duration div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin-bottom: 0;
+    font-weight: 600;
+    width: 100%;
+  }
+  .duration span {
+    width: 100%;
+    font-weight: 300;
+    margin-top: -1.2em;
+    font-size: 12px;
+  }
+  .company {
+    font-weight: bold;
+    margin-top: 1em;
+  }
+  .from,
+  .to {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+  }
+  .rolebox {
+    flex: 1;
+    width: auto;
+    background-color: white;
+    padding: 2em 1.5em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+  }
+  .role {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .respon {
+    text-align: justify;
+    margin-left: -0.5em;
+    font-size: 13px;
+  }
+  .bgwhite {
+    flex-direction: column;
+  }
+  .column {
+    flex-direction: column;
+  }
+}

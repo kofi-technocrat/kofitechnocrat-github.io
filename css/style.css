@@ -129,7 +129,7 @@ body {
 }
 
 .dp {
-  width: 80%;
+  width: 25vw;
   height: auto;
   border: 0.6em solid rgb(255, 255, 255);
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.6);
@@ -326,7 +326,7 @@ body {
 }
 
 .about-more p {
-  margin-top: 15px;
+  margin-top: 2em;
   text-align: justify;
 }
 
@@ -541,97 +541,6 @@ body {
   font-weight: 600;
   color: #ff1d58;
   text-align: center;
-}
-
-@media screen and (max-width: 600px) {
-  .navbar {
-    left: 0;
-  }
-  .background {
-    width: 100%;
-    height: auto;
-  }
-  #home {
-    height: auto;
-  }
-  .home {
-    justify-content: center;
-    width: 100%;
-    padding: 0;
-  }
-  .photo,
-  .description,
-  .detail {
-    flex-grow: 1;
-    text-align: center;
-    margin: 0;
-    padding-top: 0;
-  }
-  .dp {
-    width: 70vw;
-    margin: 0;
-  }
-  .name {
-    font-size: 27px;
-    color: #ff1d58;
-  }
-  .intro {
-    font-size: 17px;
-    margin-top: -1em;
-  }
-  .mess {
-    font-size: 15px;
-    padding: 0 80px 0 80px;
-  }
-  .info {
-    display: block;
-    text-align: left;
-    margin: 15px 10px 15px 10px;
-  }
-  .detail {
-    height: auto;
-  }
-  .about-container {
-    position: relative;
-    display: block;
-    width: 100vw;
-    padding: 30px;
-  }
-  .about,
-  .personal-details {
-    width: 100%;
-    padding: 10px;
-    text-align: justify;
-    font-size: 13px;
-  }
-  .personal-details span {
-    margin-top: -9px;
-  }
-  .personal-details p {
-    display: flex;
-    font-size: 13px;
-    padding: 0;
-    margin: 0;
-  }
-  .about-more {
-    width: 100%;
-    padding: 10px;
-    display: block;
-  }
-  .about-more a {
-    position: relative;
-    left: 50px;
-  }
-  .about-more p {
-    font-size: 13px;
-  }
-  /* /*     END OF HOME * */
-  .bgwhite {
-    flex-direction: column;
-  }
-  .column {
-    flex-direction: column;
-  }
 }
 
 /* ANIMATIONS */
