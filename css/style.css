@@ -286,10 +286,16 @@ body {
   padding: 10px 10px;
 }
 
-.about-container h3,
-h1 {
-  color: gray;
+.about-container h1 {
+  color: black;
   width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0 0 1em 1em;
+}
+
+.about-container h3 {
+  font-weight: 500;
 }
 
 .about,
@@ -325,6 +331,133 @@ h1 {
 }
 
 /* END OF HOME */
+
+/* START OF EXPERIENCE */
+
+.exp {
+  background-color: rgb(223, 237, 237);
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 10vh 0 2vh 10vw;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.exp h1 {
+  width: 100%;
+  margin: 0 0 1em 1em;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.line {
+  position: relative;
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+
+.vertical {
+  position: absolute;
+  height: 80%;
+  border: 1px black solid;
+}
+
+.line .bi {
+  flex-grow: 1;
+  font-size: 25px;
+  color: black;
+  margin: 3em;
+  z-index: 5;
+  border: 2px white solid;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0 0.3em;
+}
+
+.box {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  width: 80vw;
+  margin: 1em 0;
+}
+
+.duration {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  width: 20vw;
+  background-color: black;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 3em 1em;
+  font-size: 18px;
+  border-top-left-radius: 2em;
+  border-bottom-left-radius: 2em;
+}
+
+.duration .bi {
+  position: absolute;
+  color: black;
+  font-size: 30px;
+  margin-left: -1.2em;
+  margin-top: 0.3em;
+  align-self: center;
+}
+
+.duration div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  font-weight: 600;
+}
+
+.duration span {
+  width: 12vw;
+  font-weight: 300;
+  margin-top: -1.2em;
+  font-size: 15px;
+}
+
+.company {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.from,
+.to {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.rolebox {
+  flex: 1;
+  width: auto;
+  background-color: white;
+  padding: 2em 3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-top-right-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+.role {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.respon {
+  text-align: justify;
+  margin: 1em;
+}
 
 #graphic {
   position: relative;
