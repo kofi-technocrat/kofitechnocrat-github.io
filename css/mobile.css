@@ -157,6 +157,20 @@
     font-weight: 600;
     width: 100%;
   }
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .title p {
+    font-size: 12px;
+  }
+  .bar .levbox,
+  .bar .level {
+    height: 0.5em;
+  }
+  .levbox {
+    margin: 2em 0;
+  }
   .duration span {
     width: 100%;
     font-weight: 300;
@@ -191,6 +205,34 @@
     text-align: justify;
     margin-left: -0.5em;
     font-size: 13px;
+  }
+  /*  END OF EXPERIENCE */
+  .school-box {
+    justify-content: flex-start;
+  }
+  .school {
+    width: 100%;
+    margin: 0 2em;
+  }
+  /* END OF EDUCATION */
+  #skills {
+    margin: 0;
+    padding: 2em 0;
+  }
+  .skillset {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  #skills h1 {
+    text-align: center;
+    margin: 0 0 1em 0;
+  }
+  .skill {
+    width: 90%;
+    padding: 1.5em;
+    font-size: 8;
+    margin-bottom: 1em;
   }
   .bgwhite {
     flex-direction: column;

@@ -346,7 +346,8 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.exp h1 {
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   margin: 0 0 1em 1em;
   font-size: 30px;
@@ -458,6 +459,148 @@ body {
   text-align: justify;
   margin: 1em;
 }
+
+/* END OF EXPERIENCE */
+
+.edu {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  padding: 10vh 0 2vh 10vw;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.school-box {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1em;
+}
+
+.school-box::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari */
+}
+
+.school {
+  width: 40%;
+  flex-shrink: 0;
+  margin: 2em 20em;
+  padding: 1em 4em;
+  flex-grow: 1;
+  box-shadow: 1em 0.5em 1em rgb(185, 185, 185);
+  scroll-snap-align: start;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.controls .bi {
+  font-size: 20px;
+  color: #ff1d58;
+  text-align: center;
+  padding: 5px;
+  transition: 1s ease;
+}
+
+.controls a.active,
+.controls a:hover {
+  color: black;
+  font-size: 25px;
+  transition: 1s ease;
+}
+
+/* END OF EDUCATION */
+
+#skills {
+  width: 100%;
+  background-color: rgb(223, 237, 237);
+  padding: 3em 0 3em 7em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#skills h1 {
+  margin-left: 5em;
+}
+
+.skillset {
+  position: relative;
+  width: 80%;
+  display: flex;
+  padding: 0 2em 2em 2em;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.skill {
+  transition: 1s ease;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  display: flex;
+  background-color: white;
+  width: 45%;
+  padding: 2em 3em;
+  box-shadow: 1em 0.5em 1em rgb(185, 185, 185);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  flex-wrap: wrap;
+}
+
+.skill:hover,
+.school:hover {
+  transition: 1s ease;
+  margin-right: 2em;
+  background-color: #fffff1;
+}
+
+.skill .title {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  flex-grow: 1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skill p {
+  font-weight: 600;
+  text-align: right;
+}
+
+.bar .levbox {
+  position: relative;
+  width: 90%;
+  margin: 0.4em 0.5em 1em 0.5em;
+  height: 1em;
+  background-color: white;
+  box-shadow: 0.1em 0.2em 0.5em rgb(185, 185, 185);
+  border-radius: 10px;
+}
+
+.bar .level {
+  background-color: #ff1d58;
+  height: 1em;
+  border-radius: 10px;
+  transform: scaleX(100%);
+  transition: 1s ease;
+}
+
+/* END OF SKILL */
 
 #graphic {
   position: relative;
