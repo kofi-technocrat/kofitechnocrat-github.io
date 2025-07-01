@@ -260,9 +260,6 @@
   #portfolio:hover .image {
     filter: blur(0.5px);
   }
-  .image {
-    pointer-events: none;
-  }
   .portbox a {
     text-decoration: none;
     border-radius: 20px;
