@@ -13,11 +13,14 @@
   src: url(font/) format("truetype");
 }
 
+html,
 body {
   font-family: Quicksand;
   margin: 0;
   background-color: aliceblue;
   display: block;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .background {
@@ -644,34 +647,37 @@ h1 {
   margin-bottom: 2em;
 }
 
-.slider-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  overflow: hidden;
-  width: 100%;
-  max-width: auto;
-  margin: auto;
+#portfolio .image {
+  position: relative;
+  width: 20%;
+  height: auto;
+  border-radius: 23%;
+  margin: 20px;
+  transition: 0.5s ease;
 }
 
-.slider-container img {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  opacity: 0.4;
-  transition: opacity 0.5s ease;
+.section {
+  display: none;
+  transition: ease 0.7s;
 }
 
-.slider-container img.active {
-  opacity: 1;
+.section.active {
+  display: block;
+  transition: ease 0.7s;
 }
 
-.nav-btn {
-  cursor: pointer;
-  font-size: 24px;
-  padding: 10px;
-  user-select: none;
+#portfolio:hover .image {
+  filter: blur(2px);
+}
+
+#portfolio .image:hover {
+  filter: none;
+  transform: scale(1.5);
+  z-index: 2;
+  transition: all 1s;
+  margin: 5em 3em;
+  border-radius: 15%;
+  gap: 3;
 }
 
 #graphic {
