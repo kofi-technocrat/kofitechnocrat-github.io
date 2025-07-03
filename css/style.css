@@ -106,6 +106,20 @@ body {
   padding: 20px 0 20px 0;
 }
 
+.ext {
+  display: none;
+  color: #ff1d58;
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-style: normal;
+  margin-left: 4em;
+  margin-top: -4.5em;
+  padding: 1.5em 1em;
+  background-color: white;
+  border-radius: 5px;
+}
+
 .nav-item:hover,
 .navbar-toggler:hover {
   transition: 0.5s;
@@ -117,6 +131,9 @@ body {
   }
   .toggle {
     color: #ff1d58 !important;
+  }
+  .ext {
+    display: block;
   }
 }
 
